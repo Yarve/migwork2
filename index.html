@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Migwork Home</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+      a {
+        text-decoration: none
+      }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <nav>
+            <div class="logo">
+                <a href="/"><img class="no-frame" src="../images/itg-3000x3000.png" alt=""></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="/blog/index.html">BLOG</a></li>
+                    <li><a href="/gloss.html">GLOSSARY</a></li>
+                </ul>
+                <!--
+                <ul class="text-center">
+                    <li><a href="/team.html">TEAM</a></li> -->
+                </ul>
+                <ul class="text-right">
+                    <li><a href="/list.html">LIST</a></li>
+                    <li style="padding-right: 0"><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <div id="page-header">
+    </div>
+    <section class="main">
+        <div class="container tutorial">
+            <p>Tutorial #1: <a href="/bluecard/index.html">BLUE CARD EU</a>;</p>
+            <p>More tutorials coming soon:
+                <a href="/coming.html">Study in Germany</a> and <a href="/coming.html">Jobseeker Visa</a></p>
+            <hr>
+        </div>
+        <div class="container">
+            <h2 class="text-left"><a href="/about.html">About</a></h2>
+            <p class="about-p">
+                Migwork explains how to migrate to Germany step-by-step.<br> Migwork helps IT professionals from any country worldwide.
+                <br> This website answers only one question. HOW?
+                <a href="/about.html">Read More &rsaquo;</a>
+            </p>
+        </div>
+    </section>
+ 
+    <div id="footer"></div>
+    </div>
+    <script src="/glider.js"></script>
+    <script src="/script.js"></script>
+    <script src="/blanko/.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+                new Glider(document.querySelector('.glider'), {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    draggable: true,
+                    arrows: {
+                        prev: '.glider-prev',
+                        next: '.glider-next'
+                    }
+                })
+            })
+            // AddTimeout
+            // Make function to find button next and prev and click them
+            // EXtra
+            // Make on function when slider comes to end to go back.. (read disabled attibute)
+    </script>
+</body>
+
+</html>
+
